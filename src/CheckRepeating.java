@@ -20,7 +20,7 @@ public class CheckRepeating {
 	}
 	
 	
-	//check if any letter repeats in 'letters' array. If yes, returns true, otherwise returns false.
+	//sort array and check if any letter repeats in the array. If yes, returns true, otherwise returns false.
 	public static boolean checkRepeatingLetter(char[] letters) {
 		Arrays.sort(letters);
 		for(int i = 0; i < letters.length - 1; i++) {
