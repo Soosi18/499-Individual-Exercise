@@ -6,6 +6,7 @@ public class MinMax {
 		
 		//declare and initialize 'nums' array with random values
 		//this is a sample comment
+		//this is a sample comment - take 2
 		int[] nums = new int[5];
 		Random r = new Random();
 		
